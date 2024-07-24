@@ -1,0 +1,93 @@
+label {
+    text-align: center;
+}
+
+body {
+    background-color: #f0f0f0; /* Gris clair pour le fond */
+    color: #333; /* Couleur de texte sombre */
+    font-family: Arial, sans-serif; /* Police par défaut */
+}
+
+/* Style de l'en-tête */
+.ui-header h1 {
+    font-size: 2em; /* Taille de la police */
+    font-weight: normal; /* Poids de la police */
+    text-align: center;
+    margin: 0; /* Supprimer la marge */
+    padding: 10px; /* Ajouter un peu de remplissage */
+    color: #6c3483; /* Violet foncé */
+}
+
+/* Style pour le bouton "To Do List" */
+a.ui-btn {
+    background-color: #c0392b; /* Rouge */
+    border: none;
+    color: #fff; /* Texte blanc */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Changement de couleur au survol du bouton */
+a.ui-btn:hover {
+    background-color: #a93226; /* Rouge plus foncé au survol */
+}
+
+/* Style pour le message de bienvenue */
+.welcome-message {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #6c3483; /* Violet foncé */
+}
+
+/* Style pour les listes */
+.ui-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style pour les items de liste */
+.ui-content ul li {
+    background-color: #6c3483; /* Violet foncé */
+    color: #fff; /* Texte blanc */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Style pour les boutons Ajouter et Réinitialiser */
+input[type="button"] {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Font Awesome 6', sans-serif;
+}
+
+input[type="button"].add-btn {
+    background-color: #c0392b; /* Rouge */
+}
+
+input[type="button"].reset-btn {
+    background-color: #6c3483; /* Violet foncé */
+}
+
+/* Style pour le footer */
+div[data-role="footer"] {
+    background-color: #6c3483; /* Violet foncé */
+    color: #fff; /* Texte blanc */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
